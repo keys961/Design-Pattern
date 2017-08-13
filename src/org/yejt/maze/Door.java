@@ -32,16 +32,7 @@ public class Door extends MapSite
 
     public MapSite enter()
     {
-        if(isOpen)
-        {
-            flag = flag ^ true;
-            if(flag)
-                return otherSideFrom(room1).enter();
-            else
-                return otherSideFrom(room2).enter();
-        }
-        else
-            return null;
+        return null;
     }
 
     public Room otherSideFrom(Room room)

@@ -41,12 +41,13 @@ public class MazeGame
             default: d = Direction.EAST;
         }
         MapSite site = currentRoom.getSide(d);
-        Room nextSite;
-        nextSite = (Room)site.enter();
-        if(nextSite == currentRoom)
-            currentRoom = (Room)site.enter();
-        else if(nextSite != null)
-            currentRoom = nextSite;
+        if(site instanceof Door)
+        {
+            currentRoom = ((Door) site).otherSideFrom(currentRoom);
+            currentRoom.enter();
+        }
+        else
+            site.enter();
     }
 
 }
