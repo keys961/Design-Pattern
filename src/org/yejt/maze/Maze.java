@@ -20,7 +20,7 @@ public class Maze
         roomList.add(room);
     }
 
-    Room getRoomByRoomNo(int roomNo)
+    public Room getRoomByRoomNo(int roomNo)
     {
         for(Room room : roomList)
         {
