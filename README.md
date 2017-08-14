@@ -6,5 +6,6 @@ Current progress:
 
 - Abstract Factory
 - Builder
+- Factory Method
 - Singleton
 
