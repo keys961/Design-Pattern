@@ -10,4 +10,9 @@ public class Wall extends MapSite
         System.out.println("This is a wall!");
         return null;
     }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return new Wall();
+    }
 }

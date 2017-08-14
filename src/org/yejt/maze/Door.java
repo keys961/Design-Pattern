@@ -7,8 +7,8 @@ public class Door extends MapSite
 {
     private boolean isOpen;
     private boolean flag = false;
-    private Room room1;
-    private Room room2;
+    protected Room room1;
+    protected Room room2;
 
     public Door()
     {
@@ -30,9 +30,21 @@ public class Door extends MapSite
         isOpen = true;
     }
 
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        Door newDoor = new Door((Room)room1.clone(), (Room)room2.clone());
+        return newDoor;
+    }
+
     public MapSite enter()
     {
         return null;
+    }
+
+    public void setRoom(Room r1, Room r2)
+    {
+        this.room2 = r2;
+        this.room1 = r1;
     }
 
     public Room otherSideFrom(Room room)

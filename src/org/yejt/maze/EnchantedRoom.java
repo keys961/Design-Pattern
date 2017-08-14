@@ -20,4 +20,14 @@ public class EnchantedRoom extends Room
         return this;
     }
 
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        EnchantedRoom newRoom = new EnchantedRoom(this.roomNumber, this.words);
+        newRoom.setSide(Direction.NORTH, sides[0]);
+        newRoom.setSide(Direction.SOUTH, sides[1]);
+        newRoom.setSide(Direction.EAST, sides[2]);
+        newRoom.setSide(Direction.WEST, sides[3]);
+        newRoom.setRoomNumber(this.roomNumber);
+        return newRoom;
+    }
 }

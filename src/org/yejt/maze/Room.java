@@ -5,7 +5,7 @@ package org.yejt.maze;
  */
 public class Room extends MapSite
 {
-    private MapSite[] sides = new MapSite[4];
+    protected MapSite[] sides = new MapSite[4];
 
     protected int roomNumber;
 
@@ -23,6 +23,11 @@ public class Room extends MapSite
     {
         System.out.println("Normal Room :" + roomNumber);
         return this;
+    }
+
+    public void setRoomNumber(int id)
+    {
+        this.roomNumber = id;
     }
 
     public MapSite getSide(Direction direction)
@@ -46,6 +51,17 @@ public class Room extends MapSite
             case EAST: sides[2] = side; break;
             case WEST: sides[3] = side; break;
         }
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        Room newRoom = new Room();
+        newRoom.setSide(Direction.NORTH, sides[0]);
+        newRoom.setSide(Direction.SOUTH, sides[1]);
+        newRoom.setSide(Direction.EAST, sides[2]);
+        newRoom.setSide(Direction.WEST, sides[3]);
+        newRoom.setRoomNumber(this.roomNumber);
+        return newRoom;
     }
 
     @Override

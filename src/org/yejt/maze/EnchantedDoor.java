@@ -28,4 +28,10 @@ public class EnchantedDoor extends Door
             return null;
         }
     }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        EnchantedDoor newDoor = new EnchantedDoor(room1, room2, this.words);
+        return newDoor;
+    }
 }

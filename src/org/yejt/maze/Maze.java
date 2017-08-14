@@ -29,4 +29,13 @@ public class Maze
         }
         return null;
     }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException
+    {
+        Maze newMaze = new Maze();
+        for(Room r : roomList)
+            newMaze.addRoom((Room)r.clone());
+        return newMaze;
+    }
 }
