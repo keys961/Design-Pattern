@@ -16,7 +16,8 @@ public class BoarderDecorator extends Decorator
     @Override
     public void draw()
     {
-        component.draw();
+        //component.draw();
+        super.draw();
         this.drawBoarder();
     }
 

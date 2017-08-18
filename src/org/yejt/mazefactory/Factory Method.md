@@ -19,10 +19,11 @@ derived class to override it/them
 
 Like that: 
 
-<pre>class Creator<T>
+<pre>
+class Creator<T>
 {
          
-         <T> T makeT(Class<T> cls)
+         T makeT(Class<T> cls)
          {
              T obj = null;
              try 
@@ -35,4 +36,5 @@ Like that:
              }
              return obj;
          }
-}</pre>
+}
+</pre>

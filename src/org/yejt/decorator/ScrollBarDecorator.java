@@ -19,7 +19,8 @@ public class ScrollBarDecorator extends Decorator
     @Override
     public void draw()
     {
-        component.draw();
+        //component.draw();
+        super.draw();
         this.drawScrollBar();
     }
 
