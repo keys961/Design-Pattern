@@ -19,7 +19,7 @@
   that is, decorator & component are the same thing.
 - Each decorator contains a component as a field that is being decorated
 - We can add some other operations to decorate the component dynamically, without 
-  knowing what the component is
+  knowing what the component is, then execute the operations of the inner component
 - To decorate a component, just do it recursively like the diagram above, or like the 
   code below:  
 <pre>
