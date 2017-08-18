@@ -9,5 +9,6 @@ Current progress:
 - Factory Method
 - Prototype
 - Singleton
+- Decorator
 - Iterator
 
