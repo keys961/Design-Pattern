@@ -11,5 +11,6 @@ Current progress:
 - Singleton
 - Adapter
 - Decorator
+- Facade
 - Iterator
 
