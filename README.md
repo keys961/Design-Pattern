@@ -4,13 +4,16 @@ This is an exercise for DESIGN PATTERN
 
 Current progress:
 
-- Abstract Factory
-- Builder
-- Factory Method
-- Prototype
-- Singleton
-- Adapter
-- Decorator
-- Facade
-- Iterator
+- Creational Patterns
+    - Abstract Factory
+    - Builder
+    - Factory Method
+    - Prototype
+    - Singleton
+- Structural Patterns
+    - Adapter
+    - Decorator
+    - Facade
+- Behavioral Patterns
+    - Iterator
 
