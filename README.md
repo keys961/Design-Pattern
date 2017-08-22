@@ -1,19 +1,20 @@
 # README
 
-This is an exercise for DESIGN PATTERN
+This is an exercise for **DESIGN PATTERN**
 
 Current progress:
 
-- Creational Patterns
+- **Creational Patterns**
     - Abstract Factory
     - Builder
     - Factory Method
     - Prototype
     - Singleton
-- Structural Patterns
+- **Structural Patterns**
     - Adapter
+    - Bridge
     - Decorator
     - Facade
-- Behavioral Patterns
+- **Behavioral Patterns**
     - Iterator
 
