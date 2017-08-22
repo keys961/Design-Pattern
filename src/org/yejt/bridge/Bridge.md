@@ -24,3 +24,12 @@
 (Using **Abstract Factory** or **Factory Method**, and it makes that 
  any abstractions do not couple with any implementor classes)
 - Implementor can be singleton shared with other abstractions (Using **Singleton**)
+
+### Example
+
+In hadoop 2.8, the `Context` classes and their implementations such as
+
+- `MapContext` & `MapContextImpl` 
+- `ReduceContext` & `ReduceContextImpl`
+
+use Bridge Pattern.
