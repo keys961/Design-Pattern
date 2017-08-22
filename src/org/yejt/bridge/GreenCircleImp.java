@@ -5,6 +5,17 @@ package org.yejt.bridge;
  */
 public class GreenCircleImp extends CircleImp
 {
+    private static GreenCircleImp greenCircleImp;
+
+    protected GreenCircleImp(){}
+
+    public static ShapeImp newInstance()
+    {
+        if(greenCircleImp == null)
+            return greenCircleImp = new GreenCircleImp();
+        return greenCircleImp;
+    }
+
     @Override
     public void draw(Shape shape)
     {

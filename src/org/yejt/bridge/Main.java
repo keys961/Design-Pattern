@@ -7,10 +7,10 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Shape shape = new Circle(new CircleImp(), 1,2,3);
+        Shape shape = new Circle(CircleImp.newInstance(), 1,2,3);
         shape.draw();
         System.out.println();
-        Shape greenShape = new Circle(new GreenCircleImp(), 2,3,4);
+        Shape greenShape = new Circle(GreenCircleImp.newInstance(), 2,3,4);
         greenShape.draw();
     }
 }

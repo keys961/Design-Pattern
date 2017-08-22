@@ -5,6 +5,17 @@ package org.yejt.bridge;
  */
 public class CircleImp implements ShapeImp
 {
+    private static CircleImp circleImp;
+
+    protected CircleImp(){}
+
+    public static ShapeImp newInstance()
+    {
+        if(circleImp == null)
+            return circleImp = new CircleImp();
+        return circleImp;
+    }
+
     public void draw(Shape shape)
     {
         Circle circle;
