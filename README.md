@@ -13,6 +13,7 @@ Current progress:
 - **Structural Patterns**
     - Adapter
     - Bridge
+    - Composite
     - Decorator
     - Facade
 - **Behavioral Patterns**
