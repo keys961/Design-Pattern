@@ -7,9 +7,9 @@ import java.io.IOException;
 /**
  * Created by Yejt on 2017/8/24 0024.
  */
-public class ImageProxy implements Graphic
+public class ImageProxy implements Graphic //Virtual & Protection Proxy
 {
-    Graphic graphic;
+    private Graphic graphic;
 
     public ImageProxy(Graphic graphic)
     {
