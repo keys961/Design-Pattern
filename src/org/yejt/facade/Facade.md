@@ -16,4 +16,4 @@
   objects
 - Subsystem classes implement subsystem functionally, handle 
   works assigned by the facade
-- Subsystem classes have no knowledge og the facade
+- Subsystem classes have no knowledge of the facade

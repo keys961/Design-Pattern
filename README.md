@@ -16,6 +16,7 @@ Current progress:
     - Composite
     - Decorator
     - Facade
+    - Flyweight
 - **Behavioral Patterns**
     - Iterator
 
