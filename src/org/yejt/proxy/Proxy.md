@@ -18,7 +18,7 @@
 #### Runtime Diagram
 <img src="./proxy_2.png"/>
 
-### Type of Proxy
+### Types of Proxy
 - Remote Proxy: provides a local representative for an object in a different
                 address space
 - Virtual Proxy: creates expensive objects on demand
