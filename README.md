@@ -19,5 +19,6 @@ Current progress:
     - Flyweight
     - Proxy
 - **Behavioral Patterns**
+    - Chain of Responsibility
     - Iterator
 
