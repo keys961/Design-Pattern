@@ -20,5 +20,6 @@ Current progress:
     - Proxy
 - **Behavioral Patterns**
     - Chain of Responsibility
+    - Command
     - Iterator
 
