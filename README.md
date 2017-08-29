@@ -23,4 +23,5 @@ Current progress:
     - Command
     - Interpreter
     - Iterator
+    - Template Method
 
