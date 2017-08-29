@@ -21,5 +21,6 @@ Current progress:
 - **Behavioral Patterns**
     - Chain of Responsibility
     - Command
+    - Interpreter
     - Iterator
 
