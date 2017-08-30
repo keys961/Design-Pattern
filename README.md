@@ -5,25 +5,28 @@ This is an exercise for **DESIGN PATTERN**
 Current progress:
 
 - **Creational Patterns**
-    - Abstract Factory
-    - Builder
-    - Factory Method
-    - Prototype
-    - Singleton
+    - [x] Abstract Factory
+    - [x] Builder
+    - [x] Factory Method
+    - [x] Prototype
+    - [x] Singleton
 - **Structural Patterns**
-    - Adapter
-    - Bridge
-    - Composite
-    - Decorator
-    - Facade
-    - Flyweight
-    - Proxy
+    - [x] Adapter
+    - [x] Bridge
+    - [x] Composite
+    - [x] Decorator
+    - [x] Facade
+    - [x] Flyweight
+    - [x] Proxy
 - **Behavioral Patterns**
-    - Chain of Responsibility
-    - Command
-    - Interpreter
-    - Iterator
-    - Mediator
-    - Memento
-    - Template Method
-
+    - [x] Chain of Responsibility
+    - [x] Command
+    - [x] Interpreter
+    - [x] Iterator
+    - [x] Mediator
+    - [x] Memento
+    - [ ] Observer
+    - [ ] State
+    - [ ] Strategy
+    - [x] Template Method
+    - [ ] Visitor
