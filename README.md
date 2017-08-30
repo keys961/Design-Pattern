@@ -24,5 +24,6 @@ Current progress:
     - Interpreter
     - Iterator
     - Mediator
+    - Memento
     - Template Method
 
