@@ -37,7 +37,7 @@
 #### Collaboration Diagram
 <img src="./observer_2.png"/>
 
-### MVC
+### MVC Structure
 - **M**odel: Subject
 - **V**iew: Observer
 - **C**ontrol: *ChangeManager
