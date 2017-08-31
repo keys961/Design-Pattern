@@ -26,7 +26,7 @@ Current progress:
     - [x] Mediator
     - [x] Memento
     - [x] Observer
-    - [ ] State
+    - [x] State
     - [ ] Strategy
     - [x] Template Method
     - [ ] Visitor
