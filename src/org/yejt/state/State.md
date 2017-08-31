@@ -14,6 +14,7 @@
 - State:
     - Defines an interface for encapsulating the behavior associated with
     a particular state of the Context
+    - Often it is a singleton
 - Context:
     - Maintain a state object (Concrete State)
 - ConcreteState:
