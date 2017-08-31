@@ -25,7 +25,7 @@ Current progress:
     - [x] Iterator
     - [x] Mediator
     - [x] Memento
-    - [ ] Observer
+    - [x] Observer
     - [ ] State
     - [ ] Strategy
     - [x] Template Method
