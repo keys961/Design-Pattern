@@ -1,9 +1,6 @@
 # README
 
 This is an exercise for **DESIGN PATTERN**
-
-Current progress:
-
 - **Creational Patterns**
     - [x] Abstract Factory
     - [x] Builder
@@ -29,4 +26,8 @@ Current progress:
     - [x] State
     - [x] Strategy
     - [x] Template Method
-    - [ ] Visitor
+    - [x] Visitor
+
+**Codes are rewritten in Java and it referenced from:**
+
+- _Design Patterns: Elements of Reusable Object-Oriented Software_
