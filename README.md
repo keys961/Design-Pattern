@@ -28,6 +28,6 @@ This is an exercise for **DESIGN PATTERN**
     - [x] Template Method
     - [x] Visitor
 
-**Codes are rewritten in Java and it referenced from:**
+**Codes are rewritten in Java and referenced from:**
 
 - _Design Patterns: Elements of Reusable Object-Oriented Software_
